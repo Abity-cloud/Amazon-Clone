@@ -1,0 +1,105 @@
+[debug] [2021-02-23T20:59:19.224Z] ----------------------------------------------------------------------
+[debug] [2021-02-23T20:59:19.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abity\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-02-23T20:59:19.228Z] CLI Version:   9.4.0
+[debug] [2021-02-23T20:59:19.228Z] Platform:      win32
+[debug] [2021-02-23T20:59:19.228Z] Node Version:  v14.15.4
+[debug] [2021-02-23T20:59:19.230Z] Time:          Tue Feb 23 2021 15:59:19 GMT-0500 (Eastern Standard Time)
+[debug] [2021-02-23T20:59:19.230Z] ----------------------------------------------------------------------
+[debug] [2021-02-23T20:59:19.230Z] 
+[debug] [2021-02-23T20:59:19.240Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-23T20:59:19.240Z] > authorizing via signed-in user
+[debug] [2021-02-23T20:59:19.241Z] [iam] checking project feb20-5107b for permissions ["firebase.projects.get"]
+[debug] [2021-02-23T20:59:19.243Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-02-23T20:59:19.244Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-23T20:59:19.497Z] <<< HTTP RESPONSE 200 {"date":"Tue, 23 Feb 2021 20:59:20 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-23T20:59:19.502Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/feb20-5107b:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-02-23T20:59:19.749Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Feb 2021 20:59:20 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=86","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2021-02-23T20:59:19.763Z] defaultcredentials: writing to file C:\Users\abity\AppData\Roaming\firebase\abity_dagi_gmail.com_application_default_credentials.json
+[debug] [2021-02-23T20:59:19.764Z] DEBUG: Setting GAC to C:\Users\abity\AppData\Roaming\firebase\abity_dagi_gmail.com_application_default_credentials.json
+[debug] [2021-02-23T20:59:19.766Z] > refreshing access token with scopes: []
+[debug] [2021-02-23T20:59:19.766Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-23T20:59:19.978Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 23 Feb 2021 20:59:20 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-23T20:59:19.991Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/feb20-5107b/adminSdkConfig [none]
+[debug] [2021-02-23T20:59:20.263Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/feb20-5107b/adminSdkConfig 200
+[debug] [2021-02-23T20:59:20.263Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/feb20-5107b/adminSdkConfig {"projectId":"feb20-5107b","storageBucket":"feb20-5107b.appspot.com","locationId":"us-east1"}
+[debug] [2021-02-23T20:59:20.282Z] [functions] Watching "C:\Users\abity\OneDrive\Desktop\AmazonSep29\amazon\functions" for Cloud Functions...
+[debug] [2021-02-23T20:59:20.309Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-02-23T20:59:20.309Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-02-23T20:59:20.309Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-02-23T20:59:20.310Z] DEBUG: [worker-~diagnostic~-0d896bf9-af70-4597-be70-1b0b592d734f]: Assigning socketPath: \\?\pipe\C:\Users\abity\OneDrive\Desktop\AmazonSep29\amazon\functions\31096
+[debug] [2021-02-23T20:59:20.311Z] DEBUG: [worker-~diagnostic~-0d896bf9-af70-4597-be70-1b0b592d734f]: BUSY
+[debug] [2021-02-23T20:59:20.646Z] DEBUG: [runtime-status] [31096] Functions runtime initialized. {"cwd":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions","node_version":"14.15.4"}
+[debug] [2021-02-23T20:59:20.648Z] DEBUG: [runtime-status] [31096] Disabled runtime features: undefined
+[debug] [2021-02-23T20:59:20.654Z] DEBUG: [runtime-status] [31096] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.657Z] DEBUG: [runtime-status] [31096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.661Z] DEBUG: [runtime-status] [31096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.664Z] DEBUG: [runtime-status] [31096] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-02-23T20:59:20.665Z] DEBUG: [runtime-status] [31096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.775Z] DEBUG: [runtime-status] [31096] Checked functions.config() {"config":{}}
+[debug] [2021-02-23T20:59:20.776Z] DEBUG: [runtime-status] [31096] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2021-02-23T20:59:20.776Z] DEBUG: [runtime-status] [31096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.778Z] DEBUG: [runtime-status] [31096] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.780Z] DEBUG: [runtime-status] [31096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-23T20:59:20.780Z] DEBUG: [runtime-status] [31096] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2021-02-23T20:59:21.133Z] [functions[api]] http function initialized (http://localhost:5000/feb20-5107b/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2021-02-23T20:59:21.150Z] DEBUG: [worker-~diagnostic~-0d896bf9-af70-4597-be70-1b0b592d734f]: IDLE
+[debug] [2021-02-26T00:27:21.565Z] ----------------------------------------------------------------------
+[debug] [2021-02-26T00:27:21.567Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abity\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-02-26T00:27:21.568Z] CLI Version:   9.4.0
+[debug] [2021-02-26T00:27:21.568Z] Platform:      win32
+[debug] [2021-02-26T00:27:21.568Z] Node Version:  v14.15.4
+[debug] [2021-02-26T00:27:21.569Z] Time:          Thu Feb 25 2021 19:27:21 GMT-0500 (Eastern Standard Time)
+[debug] [2021-02-26T00:27:21.570Z] ----------------------------------------------------------------------
+[debug] [2021-02-26T00:27:21.570Z] 
+[debug] [2021-02-26T00:27:21.577Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-02-26T00:27:21.611Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-26T00:27:21.612Z] > authorizing via signed-in user
+[debug] [2021-02-26T00:27:21.612Z] [iam] checking project feb20-5107b for permissions ["firebase.projects.get"]
+[debug] [2021-02-26T00:27:21.614Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-02-26T00:27:21.614Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-26T00:27:21.814Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-02-26T00:27:21.814Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-02-26T00:27:21.860Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 26 Feb 2021 00:27:21 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-26T00:27:21.863Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/feb20-5107b:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-02-26T00:27:22.203Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 26 Feb 2021 00:27:22 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=122","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2021-02-26T00:27:22.220Z] defaultcredentials: writing to file C:\Users\abity\AppData\Roaming\firebase\abity_dagi_gmail.com_application_default_credentials.json
+[debug] [2021-02-26T00:27:22.221Z] DEBUG: Setting GAC to C:\Users\abity\AppData\Roaming\firebase\abity_dagi_gmail.com_application_default_credentials.json
+[debug] [2021-02-26T00:27:22.222Z] > refreshing access token with scopes: []
+[debug] [2021-02-26T00:27:22.222Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-26T00:27:22.419Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 26 Feb 2021 00:27:22 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-26T00:27:22.423Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/feb20-5107b/adminSdkConfig [none]
+[debug] [2021-02-26T00:27:22.740Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/feb20-5107b/adminSdkConfig 200
+[debug] [2021-02-26T00:27:22.740Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/feb20-5107b/adminSdkConfig {"projectId":"feb20-5107b","storageBucket":"feb20-5107b.appspot.com","locationId":"us-east1"}
+[debug] [2021-02-26T00:27:22.750Z] [functions] Watching "C:\Users\abity\OneDrive\Desktop\AmazonSep29\amazon\functions" for Cloud Functions...
+[debug] [2021-02-26T00:27:22.770Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-02-26T00:27:22.771Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-02-26T00:27:22.771Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-02-26T00:27:22.771Z] DEBUG: [worker-~diagnostic~-c0cd11b2-956b-4d9c-890c-0054633269c9]: Assigning socketPath: \\?\pipe\C:\Users\abity\OneDrive\Desktop\AmazonSep29\amazon\functions\22448
+[debug] [2021-02-26T00:27:22.771Z] DEBUG: [worker-~diagnostic~-c0cd11b2-956b-4d9c-890c-0054633269c9]: BUSY
+[debug] [2021-02-26T00:27:22.979Z] DEBUG: [runtime-status] [22448] Functions runtime initialized. {"cwd":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions","node_version":"14.15.4"}
+[debug] [2021-02-26T00:27:22.980Z] DEBUG: [runtime-status] [22448] Disabled runtime features: undefined
+[debug] [2021-02-26T00:27:22.984Z] DEBUG: [runtime-status] [22448] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-02-26T00:27:22.987Z] DEBUG: [runtime-status] [22448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-26T00:27:22.988Z] DEBUG: [runtime-status] [22448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-26T00:27:22.991Z] DEBUG: [runtime-status] [22448] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-02-26T00:27:22.991Z] DEBUG: [runtime-status] [22448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-26T00:27:23.092Z] DEBUG: [runtime-status] [22448] Checked functions.config() {"config":{}}
+[debug] [2021-02-26T00:27:23.092Z] DEBUG: [runtime-status] [22448] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2021-02-26T00:27:23.092Z] DEBUG: [runtime-status] [22448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-26T00:27:23.104Z] DEBUG: [runtime-status] [22448] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-02-26T00:27:23.105Z] DEBUG: [runtime-status] [22448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-02-26T00:27:23.105Z] DEBUG: [runtime-status] [22448] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\abity\\OneDrive\\Desktop\\AmazonSep29\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2021-02-26T00:27:23.573Z] [functions[api]] http function initialized (http://localhost:5000/feb20-5107b/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2021-02-26T00:27:23.603Z] DEBUG: [worker-~diagnostic~-c0cd11b2-956b-4d9c-890c-0054633269c9]: IDLE
